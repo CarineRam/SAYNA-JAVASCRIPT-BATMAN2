@@ -10,14 +10,16 @@
 </head>
 
 <body>
-	
 	<header>
 		<!-- Logo, home, game -->
+
+		<img src="Illustrations/Bathome1.png" alt="Fond Batman" class="backgroundBatman">
+
 		<nav class="container">
 			<a href="index.html"><img class="logohome" src="Logos/logohome.png" title="Logo Batman"></a>
 			<div class="boutonHeader">
 				<a class="boutonhome" href="index.html">HOME</a>
-				<a class="boutongame" href="index.html">GAME</a>
+				<a class="boutongame" href="game.html">GAME</a>
 			</div>
 		</nav>
 		<div class="Intro">
@@ -95,7 +97,7 @@
 				se mesurer à des antagonistes qui défient l’imagination et les lois de la physique. Parmi les
 				derniers ennemis emblématiques que nous avons pu voir au cinéma, on retrouve :</p>
 
-			<div class="illustrations">
+			<div class="illustrations2">
 				<div class="image">
 					<img src="Illustrations/Bathome5.png" alt="The Riddler - Paul Dano (2022)">
 					<div class="nomAdversaire1">
@@ -130,7 +132,7 @@
 				police, Bruce pourra compter sur l’aide infaillible de James Gordon, “Jim”, qui désire lui aussi
 				nettoyer sa ville de la criminalité qui y règne.</p>
 
-			<div class="illustrations">
+			<div class="illustrations3">
 				<div class="image">
 					<img src="Illustrations/Bathome9.png" alt="Alfred Pennyworth - Michael Cain (2006 - 2008 - 2012)">
 					<div class="nomAllies1">
@@ -205,48 +207,109 @@
 		</section>
 
 		<!-- Contact -->
-	<section id="contact" class="contact">
-		<h1 class="titreContact">PRENONS CONTACT</h1>
-		<form class="form">
-			<label for="email" class="noms">ADRESSE EMAIL</label><br><br>
-			<input type="email"	name="email" placeholder="Adresse email" class="input" required><br><br>
+		<section id="contact" class="contact">
+			<h1 class="titreContact">PRENONS CONTACT</h1>
+			<form class="form">
+				<label for="email" class="noms">ADRESSE EMAIL</label><br><br>
+				<input type="email"	name="email" placeholder="Adresse email" class="input" required><br><br>
 
-			<label for="newsletter" class="noms">NEWSLETTER</label><br><br>
-			<label class="check">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Batman :</label>
-			<input type="checkbox">
+				<label for="newsletter" class="noms">NEWSLETTER</label><br><br>
+				<label class="check">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Batman :</label>
+				<input type="checkbox">
 
-			<div class="choix">
-				<!-- Choix pour recevoir le newsletter -->
-				<label for="choix"></label>
-				<select name="choix" id="choix">
-					<option>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</option>
-					<option>Tous les jours</option>
-					<option>Une fois par semaine</option>
-					<option>Une fois tous les deux semaines</option>
-					<option>Une fois par mois</option>
-					<option>Une fois tous les 3 mois</option>
-				</select>
+				<div class="choix">
+					<!-- Choix pour recevoir le newsletter -->
+					<label for="choix"></label>
+					<select name="choix" id="choix">
+						<option>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</option>
+						<option>Tous les jours</option>
+						<option>Une fois par semaine</option>
+						<option>Une fois tous les deux semaines</option>
+						<option>Une fois par mois</option>
+						<option>Une fois tous les 3 mois</option>
+					</select>
+				</div>
+
+				<div class="news">
+					<div class="newsText">Souhaitez-vous recevoir des news</div>
+					<div class="boutonNews">
+						<button class="btn" type="button"><a type="button" href="index.html">Des films</a></button>
+						<button class="btn" type="button"><a type="button" value="Des comics" href="index.html">Des comics</a></button>
+						<button class="btn" type="button"><a type="button" value="De tout" href="index.html">De tout</a></button>
+					</div>
+				</div>
+
+				<label for="message" class="noms">MESSAGE</label><br><br>
+				<input type="text"	name="message" class="input" placeholder="Laissez un commentaire pour la communauté" required><br>
+				<button class="confirmer" type="button" id="open">CONFIRMER</button>	
+			</form>
+
+			<!-- Pop Up -->
+			<div class="fond" id="popup">
+				<span class="close" id="close">&times;</span>
+				<p>MESSAGE RECU!</p>
 			</div>
+			
+		</section>
 
-			<div class="news">
-				<div class="newsText">Souhaitez-vous recevoir des news</div>
-				<div class="boutonNews">
-					<a class="btn" type="button" href="index.html">Des films</a>
-					<a class="btn" type="button" value="Des comics" href="index.html">Des comics</a>
-					<a class="btn" type="button" value="De tout" href="index.html">De tout</a>
+		
+
+		<!-- Citation -->
+		<section id="citation"  class="citation">
+			<div class="guillemet1">
+				<div class="ouvert">
+					<img src="Logos/icon_guillemets_1.png" alt="Guillement ouvert">
+				</div>
+				<br>
+				<div class="ouvertTexte">
+					<p>La seule façon raisonnable de vivre en ce bas monde, <br> c'est en dehors des règles.</p>
 				</div>
 			</div>
-
-			<label for="message" class="noms">MESSAGE</label><br><br>
-			<input type="text"	name="message" class="input" placeholder="Laissez un commentaire pour la communauté">
-
-			<div class="confirmer">
-				<a type="submit" href="index.html">CONFIRMER</a>
+			<br>
+			<div class="guillemet2">
+				<div class="fermeTexte">
+					<p>The Dark Knight : Le Chevalier Noir - <br> Le Joker à Batman (2008)</p>
+				</div>
+				<div class="ferme">
+					<img src="Logos/icon_guillemets_2.png" alt="Guillement fermé">
+				</div>
 			</div>
-		</form>
-	</section>
+		</section>
+
+		<footer>
+		<section id="signature" class="signature">
+			<div style="display: inline-flex;" class="univers">
+				<div class="wb">
+					<img src="Logos/icon_WB.png" alt="WB">
+				</div>
+				<div class="texteWB">
+					<p>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</p>
+				</div>
+			</div>
+			<br>
+			<div style="display: inline-flex;" class="logos">
+				<div class="logoSayna">
+					<a href="https://www.sayna.io"><img src="Logos/logo_sayna_white.png" alt="icon Sayna"></a>
+				</div>
+				<div class="iconX">
+					<img src="Logos/icon_x.png" alt="icon x">
+				</div>
+				<div class="logoDC">
+					<a href="https://www.dc.com"><img src="Logos/icon_DC.png" alt="icon DC"></a>
+				</div>
+				<div class="logoFb">
+					<a href="https://www.facebook.com"><img src="Logos/icon_facebook.png" alt="icon Facebook"></a>
+				</div>
+				<div class="logoInstagram">
+					<a href="https://www.instagram.com"><img src="Logos/icon_ig.png" alt="icon Instagram"></a>
+				</div>
+				<div class="logoTwitter">
+					<a href="https://www.twitter.com"><img src="Logos/icon_tw.png" alt="icon Twitter"></a>
+				</div>
+			</div>
+		</section>
+		</footer>
 	</main>
-	
 
 	<script src="index.js"></script>
 </body>

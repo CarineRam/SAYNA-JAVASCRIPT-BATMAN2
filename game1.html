@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ramandimby Carine">
+    <meta name="description" content="Batman Partie Quiz">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Batman Fil Rouge | Quiz</title>
+</head>
+<body>
+    <header>
+		<!-- Logo, home, game -->
+
+		<img src="IllustrationsGame/Batgame_1.png" alt="Fond Batman" class="backgroundBatman">
+
+		<nav class="container">
+			<a href="index.html"><img class="logohome" src="Logos/logohome.png" title="Logo Batman"></a>
+			<div class="boutonHeader">
+				<a class="boutonhome" href="index.html">HOME</a>
+				<a class="boutongame" href="game.html">GAME</a>
+			</div>
+		</nav>
+		<!-- Introduction -->
+		<div class="introGame">
+			<h1>LET'S PLAY A<br>LITTLE GAME ...</h1>
+		</div>
+		
+		<!-- Social média -->
+		<div class="social">
+			<!-- flèche bas -->
+			<a href="#container"><img src="Logos/logo_bat_flèche.png" alt="flèche haut Batman" title="flèche haut Batman"></a>
+			<div class="icon"><a href="https://www.facebook.com"><img src="Logos/icon_facebook.png" alt="icon Facebook" title="Page Facebook"></a></div>
+			<div class="icon"><a href="https://www.instagram.com"><img src="Logos/icon_ig.png" alt="icon Instagram" title="Page Instagram"></a></div>
+			<div class="icon"><a href="https://www.twitter.com"><img src="Logos/icon_tw.png" alt="icon Twitter" title="Page Twitter"></a></div>
+			<!-- flèche haut -->
+			<a href="#signature"><img src="Logos/logo_bat_flèche_2.png" alt="flèche bas Batman" title="flèche bas Batman"></a><br>
+		</div>
+		<a href="#batmanAuCinema" class="flecheBas"><img src="Logos/flèche_down_header.png" alt="flèche bas vers contenus"></a>	
+	</header>
+
+    <!-- Quiz -->
+	<section class="quiz">
+		<h1>1/15</h1>
+            <div style="display: inline-flex;" class="imageQuiz">
+		        <img src="IllustrationsGame/Batgame_3.png" alt="Image quiz"><br>
+                <div class="partieQuestion">
+                    <h2 id="question">La question?</h2>
+                    <div id="boutonReponses">
+                        <button class="btnReponse">Réponse 1</button>
+                        <button class="btnReponse">Réponse 2</button>
+                        <button class="btnReponse">Réponse 3</button>
+                    </div>
+                </div>
+            </div><br>
+		<button class="questionSuivante" type="button" id="questionSuivante" >Question suivante</button>
+	</section>
+
+    <footer>
+		<section id="signature" class="signature">
+			<div style="display: inline-flex;" class="univers">
+				<div class="wb">
+					<img src="Logos/icon_WB.png" alt="WB">
+				</div>
+				<div class="texteWB">
+					<p>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</p>
+				</div>
+			</div>
+			<br>
+			<div style="display: inline-flex;" class="logos">
+				<div class="logoSayna">
+					<a href="https://www.sayna.io"><img src="Logos/logo_sayna_white.png" alt="icon Sayna"></a>
+				</div>
+				<div class="iconX">
+					<img src="Logos/icon_x.png" alt="icon x">
+				</div>
+				<div class="logoDC">
+					<a href="https://www.dc.com"><img src="Logos/icon_DC.png" alt="icon DC"></a>
+				</div>
+				<div class="logoFb">
+					<a href="https://www.facebook.com"><img src="Logos/icon_facebook.png" alt="icon Facebook"></a>
+				</div>
+				<div class="logoInstagram">
+					<a href="https://www.instagram.com"><img src="Logos/icon_ig.png" alt="icon Instagram"></a>
+				</div>
+				<div class="logoTwitter">
+					<a href="https://www.twitter.com"><img src="Logos/icon_tw.png" alt="icon Twitter"></a>
+				</div>
+			</div>
+		</section>
+
+	</footer>
+    <script src="game.js"></script>
+</body>
+</html>
