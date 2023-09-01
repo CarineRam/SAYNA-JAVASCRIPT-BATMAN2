@@ -1,0 +1,72 @@
+@import 'colors';
+@import 'typo';
+
+body{
+    color : $white;
+
+    h1{
+        font-size: 60px;
+        font-family: 'Rajdhani', sans-serif;
+        text-align: center;
+    }
+
+    .introGame{
+        position : absolute;
+        top: 40%;
+        left: 15%;
+    }
+
+    .chevalierNoir{
+        color: $white;
+        text-align: center;
+        
+        .demarrer{
+            background-image: linear-gradient(to right, $greyFonce, $orange);
+            font-family: 'Rajdhani', sans-serif;
+            color: $white;
+            padding:0.7% 5%;
+            font-size: 20px;
+            margin-top: 1%;
+
+        }
+    }
+
+    footer{
+        text-align: center;
+        background-color: $black;
+        position: relative;
+        margin-top: 10%;
+        color: $white;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 12px;
+
+        .univers{
+            margin-bottom: 5%;
+        }
+
+        .logos{
+            margin-bottom: 5%;
+            .logoSayna{
+                padding-right: 20px;
+            }
+            .iconX{
+                padding-right: 20px;
+                padding-top: 15px;
+            }
+            .logoDC{
+                padding-right: 20px;
+            }
+            .logoFb{
+                padding-right: 20px;
+                padding-top: 10px;
+            }
+            .logoInstagram{
+                padding-right: 20px;
+                padding-top: 10px;
+            }
+            .logoTwitter{
+                padding-top: 10px;
+            }   
+        }
+    }
+}

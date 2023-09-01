@@ -1,0 +1,55 @@
+.quiz{
+
+    .imageQuiz{
+        width: 60%;
+        margin-left: 30%;
+
+        /*img{
+            
+        }*/
+        h2{
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 30px;
+        }
+        .btnReponse{
+            background: $greyFonce;
+            color: $white;
+            border: none;
+            font-family: 'Space Grotesk', sans-serif;
+            text-align: left;
+            width: 100%;
+            margin-top: 4%;
+            font-size: 20px;
+            padding-left : 7%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+        .btnReponse:hover:not([disabled]){
+            background: $white;
+            color: $greyFonce;
+            cursor: pointer;
+        }
+        .btnReponse:disabled{
+            cursor: no-drop;
+        }
+        
+    }
+    .questionSuivante{
+        background-image: linear-gradient(to right, $greyFonce, $orange);
+        font-family: 'Rajdhani', sans-serif;
+        color: $white;
+        padding:0.7% 5%;
+        font-size: 20px;
+        margin-top: 1%;
+        border: none;
+        margin-left: 42%;
+
+    }
+    
+}
+.correct{
+    background : $green;
+}
+.incorrect{
+    background : $redIncorrect;
+}
